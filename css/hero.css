@@ -161,9 +161,7 @@
 .policy .text {
     margin-bottom: 3rem;
 }
-.policy__list {
-    display: none;
-}
+
 .policy .btn,
 .hero .btn {
     background-color: var(--second-brand-color);
@@ -281,53 +279,6 @@
 
 
 
-    .policy .sub-title {
-        margin-bottom: 15rem;
-    }
-    .policy__box {
-        text-align: left;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .policy__list {
-        display: block;
-        width: 50rem;
-        height: 50rem;
-        position: relative;
-    }
-    .policy__image {
-        display: block;
-        width: 23rem;
-        height: 23rem;
-        object-fit: cover;
-        border-radius: 1rem;
-        -webkit-box-shadow: .5rem .5rem 3rem 0rem rgba(0,0,0,0.3);
-        -moz-box-shadow: .5rem .5rem 3rem 0rem rgba(0,0,0,0.3);
-        box-shadow: .5rem .5rem 3rem 0rem rgba(0,0,0,0.3);
-    }
-    .policy__item:nth-child(1) {
-        position: absolute;
-        top: 2rem;
-        right: 0;
-    }
-    .policy__item:nth-child(2) {
-        position: absolute;
-        top: 5rem;
-        left: 0;
-    }
-    .policy__item:nth-child(2) .policy__image {
-        width: 30rem;
-        height: 30rem;
-    }
-    .policy__item:nth-child(3) {
-        position: absolute;
-        top: 22rem;
-        right: 5rem;
-    }
-    .policy__item:nth-child(3) .policy__image {
-        width: 25rem;
-        height: 25rem;
-    }
+   
 }
 
