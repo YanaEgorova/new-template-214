@@ -97,7 +97,7 @@
     position: absolute;
     z-index: -1;
     background-color: var(--second-brand-color);
-    background-color: rgba(70, 104, 253, .3);
+    opacity: .3;
 }
 
 

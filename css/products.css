@@ -2,6 +2,19 @@
     position: relative;
     /* background-color: var(--first-brand-color); */
 }
+.hero-products .container {
+    position: relative;
+}
+.products--svg {
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+    fill: var(--second-brand-color);
+}
 .products {
     text-align: center;
     padding: 15rem 0;
@@ -190,12 +203,7 @@
     }
 
 
-    .hero-products .products {
-        background-image: url('../img/bg5.jpg');
-        background-repeat: no-repeat;
-        background-position: bottom right;
-        background-size: auto 65%;
-    }
+   
 }
 
 
