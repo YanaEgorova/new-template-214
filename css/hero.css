@@ -156,7 +156,7 @@
     margin: 0 auto;
 }
 .policy__block--top {
-    margin-bottom: 8rem;
+    /* margin-bottom: 8rem; */
 }
 .policy .text {
     margin-bottom: 3rem;
